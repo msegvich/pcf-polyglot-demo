@@ -1,0 +1,11 @@
+---
+applications:
+- name: admin-portal
+  buildpack: dotnet_core_buildpack
+  memory: 256M
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - service-registry
+   - config-server
+   - sso

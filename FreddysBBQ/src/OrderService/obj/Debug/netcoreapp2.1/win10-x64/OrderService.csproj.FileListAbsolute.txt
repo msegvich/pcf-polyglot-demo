@@ -1,0 +1,17 @@
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\hostpolicy.dll
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\hostfxr.dll
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\OrderService.exe
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\OrderService.deps.json
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\OrderService.runtimeconfig.json
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\OrderService.runtimeconfig.dev.json
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\OrderService.dll
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\bin\Debug\netcoreapp2.1\win10-x64\OrderService.pdb
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.csprojAssemblyReference.cache
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.csproj.CoreCompileInputs.cache
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.RazorAssemblyInfo.cache
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.RazorAssemblyInfo.cs
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.AssemblyInfoInputs.cache
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.AssemblyInfo.cs
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.RazorTargetAssemblyInfo.cache
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.dll
+D:\Users\msegvich\workspace\Samples\FreddysBBQ\src\OrderService\obj\Debug\netcoreapp2.1\win10-x64\OrderService.pdb
