@@ -1,0 +1,56 @@
+oauth:
+  user:
+    authorities:
+      - openid
+      - scim.me
+      - password.write
+      - scim.userids
+      - uaa.user
+      - approvals.me
+      - oauth.approvals
+
+  clients:
+    customer-portal:
+      secret: secret
+      authorized-grant-types: authorization_code
+      scope: openid,menu.read,order.me
+      authorities: uaa.resource
+      redirect-uri: http://localhost:8082/login
+    admin-portal:
+      secret: secret
+      authorized-grant-types: authorization_code
+      scope: openid,menu.read,menu.write,order.admin
+      authorities: uaa.resource
+      redirect-uri: http://localhost:8084/login
+    mobile-app:
+      secret: secret
+      authorized-grant-types: password
+      scope: openid,menu.read,order.me
+
+scim:
+  users:
+    - wtran|demo|wtran@pivotal.io|Will|Tran|menu.read,order.me
+    - frank|demo|frank@whitehouse.gov|Frank|Underwood|menu.read,order.me
+    - freddy|demo|freddy@freddysbbq.com|Freddy|Hayes|menu.read,menu.write,order.admin
+jwt:
+  token:
+    verification-key: |
+      -----BEGIN PUBLIC KEY-----
+      Example
+      -----END PUBLIC KEY-----
+    policy:
+      activeKeyId: key-id-1
+      keys:
+        key-id-1:
+          signingKey: |
+            -----BEGIN RSA PRIVATE KEY-----Example
+            -----END RSA PRIVATE KEY-----
+
+login:
+  serviceProviderKey: |
+    -----BEGIN RSA PRIVATE KEY-----Example
+    -----END RSA PRIVATE KEY-----
+  serviceProviderKeyPassword: password
+  serviceProviderCertificate: |
+    -----BEGIN CERTIFICATE-----Example
+    -----END CERTIFICATE-----

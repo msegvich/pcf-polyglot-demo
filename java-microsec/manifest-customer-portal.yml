@@ -1,0 +1,17 @@
+---
+fd_service: &fd_service
+  buildpack: java_buildpack
+  memory: 1G
+  env:
+    TRUST_CERTS: api.run.pivotal.io
+  services:
+  - sso
+  - service-registry
+  - config-server
+  - circuit-breaker
+
+applications:
+
+ - name: mds-customer-portal
+   path: microsec-customer-portal/target/microsec-customer-portal.jar
+   <<: *fd_service

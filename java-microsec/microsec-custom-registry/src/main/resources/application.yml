@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  
+jwt:
+  token:
+    verification-key: |
+      -----BEGIN PUBLIC KEY-----Example
+      -----END PUBLIC KEY-----
+    signing-key: |
+      -----BEGIN RSA PRIVATE KEY-----Example
+      -----END RSA PRIVATE KEY-----
+   
+spring:
+  thymeleaf:
+    cache: false
+    

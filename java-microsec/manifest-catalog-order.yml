@@ -1,0 +1,18 @@
+---
+bck_service: &bck_service
+  buildpack: java_buildpack
+  memory: 1G
+  env:
+    GRANT_TYPE: client_credentials
+    TRUST_CERTS: api.run.pivotal.io
+  services:
+  - sso
+  - service-registry
+  - config-server
+  - mysql
+
+applications:
+
+ - name: mds-catalog-order-service
+   path: microsec-catalog-order-service/target/microsec-catalog-order-service.jar
+   <<: *bck_service

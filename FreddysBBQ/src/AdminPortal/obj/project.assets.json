@@ -10188,31 +10188,29 @@
     ]
   },
   "packageFolders": {
-    "D:\\Users\\msegvich\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/msegvich/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\msegvich\\workspace\\Samples\\FreddysBBQ\\src\\AdminPortal\\AdminPortal.csproj",
+      "projectUniqueName": "/Users/msegvich/workspace/pcf-polyglot-demo/FreddysBBQ/src/AdminPortal/AdminPortal.csproj",
       "projectName": "AdminPortal",
-      "projectPath": "D:\\Users\\msegvich\\workspace\\Samples\\FreddysBBQ\\src\\AdminPortal\\AdminPortal.csproj",
-      "packagesPath": "D:\\Users\\msegvich\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\msegvich\\workspace\\Samples\\FreddysBBQ\\src\\AdminPortal\\obj\\",
+      "projectPath": "/Users/msegvich/workspace/pcf-polyglot-demo/FreddysBBQ/src/AdminPortal/AdminPortal.csproj",
+      "packagesPath": "/Users/msegvich/.nuget/packages/",
+      "outputPath": "/Users/msegvich/workspace/pcf-polyglot-demo/FreddysBBQ/src/AdminPortal/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\Users\\msegvich\\workspace\\Samples\\FreddysBBQ\\NuGet.Config",
-        "D:\\Users\\msegvich\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/msegvich/workspace/pcf-polyglot-demo/FreddysBBQ/nuget.config",
+        "/Users/msegvich/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://www.myget.org/F/steeltoedev/api/v3/index.json": {},
         "https://www.myget.org/F/steeltoemaster/api/v3/index.json": {}
@@ -10231,58 +10229,59 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.1.0",
+            "autoReferenced": true
+          },
           "Microsoft.AspNetCore": {
             "target": "Package",
-            "version": "[2.1.0, )"
+            "version": "2.1.0"
           },
           "Microsoft.AspNetCore.Authentication.Abstractions": {
             "target": "Package",
-            "version": "[2.1.0, )"
+            "version": "2.1.0"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
-            "version": "[2.1.0, )"
+            "version": "2.1.0"
           },
           "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
-            "version": "[2.1.0, )"
+            "version": "2.1.0"
           },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
-            "version": "[2.1.0, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.1.0, )",
-            "autoReferenced": true
-          },
-          "Pivotal.Discovery.ClientCore": {
-            "target": "Package",
-            "version": "[2.1.0-dev-00177, )"
-          },
-          "Pivotal.Extensions.Configuration.ConfigServerCore": {
-            "target": "Package",
-            "version": "[2.1.0-dev-00173, )"
+            "version": "2.1.0"
           },
           "Steeltoe.CloudFoundry.Connector.EFCore": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0.0"
           },
           "Steeltoe.Extensions.Logging.DynamicLogger": {
             "target": "Package",
-            "version": "[2.1.0-dev-00055, )"
-          },
-          "Steeltoe.Security.Authentication.CloudFoundryCore": {
-            "target": "Package",
-            "version": "[2.1.0-dev-00145, )"
-          },
-          "System.Diagnostics.Tools": {
-            "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "2.1.0-dev-00055"
           },
           "System.Net.Sockets": {
             "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "4.3.0"
+          },
+          "System.Diagnostics.Tools": {
+            "target": "Package",
+            "version": "4.3.0"
+          },
+          "Pivotal.Discovery.ClientCore": {
+            "target": "Package",
+            "version": "2.1.0-dev-00177"
+          },
+          "Pivotal.Extensions.Configuration.ConfigServerCore": {
+            "target": "Package",
+            "version": "2.1.0-dev-00173"
+          },
+          "Steeltoe.Security.Authentication.CloudFoundryCore": {
+            "target": "Package",
+            "version": "2.1.0-dev-00145"
           }
         },
         "imports": [

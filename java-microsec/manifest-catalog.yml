@@ -1,0 +1,20 @@
+---
+bck_service: &bck_service
+  buildpack: java_buildpack
+  memory: 1G
+  env:
+    GRANT_TYPE: client_credentials
+    TRUST_CERTS: api.run.pivotal.io
+  services:
+  - sso
+  - service-registry
+  - config-server
+  - mysql
+
+applications:
+
+ - name: mds-catalog-service
+   path: microsec-catalog-service/target/microsec-catalog-service.jar
+   <<: *bck_service
+
+# For the polyglot demo, Admin and Order services are .NET-based and deployed in a different project
